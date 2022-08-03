@@ -4,7 +4,7 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 from django import template
-from django.utils.encoding import smart_text
+from django.utils.encoding import smart_str as smart_text
 
 from django_inlinecss import conf
 
